@@ -1,7 +1,7 @@
 {
-  "name": "node-gtk",
+  "name": "node-gtk-cc",
   "version": "0.0.18",
-  "description": "GNOME Gtk+ bindings for NodeJS",
+  "description": "GNOME Gtk+ camelCase bindings for NodeJS",
   "main": "lib/index.js",
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebReflection/node-gtk.git"
+    "url": "git+https://github.com/WebReflection/node-gtk-cc.git"
   },
   "keywords": [
     "GNOME",
@@ -17,23 +17,24 @@
     "GObject",
     "Gtk+",
     "Gtk",
-    "bindings"
+    "bindings",
+    "camelCase"
   ],
   "author": "Jasper St. Pierre",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WebReflection/node-gtk/issues"
+    "url": "https://github.com/WebReflection/node-gtk-cc/issues"
   },
-  "homepage": "https://github.com/WebReflection/node-gtk#readme",
+  "homepage": "https://github.com/WebReflection/node-gtk-cc#readme",
   "dependencies": {
     "node-gyp": "^3.2.1",
     "node-pre-gyp": "^0.6.x",
     "node-pre-gyp-github": "^1.x"
   },
   "binary": {
-    "module_name": "node-gtk",
+    "module_name": "node-gtk-cc",
     "module_path": "./build/{configuration}/{node_abi}-{platform}-{arch}/",
     "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://github.com/WebReflection/node-gtk/releases/download/0.0.16"
+    "host": "https://github.com/WebReflection/node-gtk-cc/releases/download/0.0.16"
   }
 }
